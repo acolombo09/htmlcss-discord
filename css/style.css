@@ -20,6 +20,7 @@ header{
   padding-bottom: 4px;
   width: 100%;
   min-height: 70px;
+  background-color: #255ee9;
 }
 
 header nav{
@@ -45,9 +46,13 @@ footer{
   margin: 0 auto;
 }
 
-.bg-yellow{
-  background-color: #DAA520;
+.welcome-section {
+  background-image: url("../img/jumbo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
+
 .bg-grey{
   background-color: #d3d3d3;
 }
@@ -153,4 +158,33 @@ footer hr{
   border: 1px dashed black;
   padding: 0.5rem;
   background-color: #ffbdc0;
+}
+
+/* Buttons */
+.btn{
+  border-radius: 15px;
+  border: none;
+  background-color: white;
+  padding: .7rem 1rem;
+}
+.btn-small{
+  border-radius: 15px;
+  border: none;
+  background-color: white;
+  padding: .4rem .7rem;
+  font-size: .8rem;
+}
+.btn-dark{
+  border-radius: 15px;
+  border: none;
+  background-color: #23272a;
+  color: white;
+  padding: .7rem 1rem;
+}
+.btn-violet{
+  border-radius: 15px;
+  border: none;
+  background-color: #7289da;
+  color: white;
+  padding: .7rem 1rem;
 }
