@@ -67,7 +67,19 @@ footer{
 }
 
 .bg-grey{
-  background-color: #d3d3d3;
+  background-color: #f6f6f6;
+}
+
+.wave{
+  width: auto;
+  height: 6rem;
+  background-image: url(../img/wave.svg);
+}
+.wave-reverse{
+  width: auto;
+  height: 6rem;
+  background-image: url(../img/wave.svg);
+  transform: rotate(180deg);
 }
 
 .nav-links, .nav-logo, .nav-login{
@@ -156,6 +168,10 @@ footer{
   width: 400px;
 }
 
+.box-large img{
+  width: 90%;
+}
+
 .col-small{
   width: 40%;
   border: 1px dashed black;
@@ -171,10 +187,12 @@ footer{
   align-items: flex-start;
 }
 
-.box-green{
+.box-large{
   border: 1px dashed black;
   min-height: 500px;
-  background-color: #1b7a20;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 footer .col{
@@ -258,9 +276,42 @@ footer hr{
   color: white;
   text-align: center;
 }
-
 .welcome-description{
   color: white;
   text-align: center;
   width: 82%;
+}
+
+.box-text-section{
+  width: 90%;
+  padding: 1rem 0 0 1rem;
+  text-align: center;
+}
+
+.box-cta{
+  padding-top: 30px;
+  width: 50%;
+  border: 1px dashed black;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.cta-title{
+  width: 100%;
+  padding-bottom: 10px;
+}
+.cta-button{
+  padding-top: 9px;
+}
+
+.bg-stars{
+  line-height: 60px;
+  background-image: url(../img/stars.svg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  text-align: center;
+  background-size: auto 35px;
 }
