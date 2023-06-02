@@ -38,7 +38,7 @@ section{
 
 footer{
   background-color: #23272b;
-  padding-top: 6px;
+  padding-top: 2rem;
 }
 
 .container{
@@ -144,7 +144,6 @@ footer{
 
 .col-wide{
   width: 60%;
-  border: 1px dashed black;
   min-height: 300px;
   display: flex;
   justify-content: flex-end;
@@ -153,7 +152,6 @@ footer{
 
 .col-wide-reverse{
   width: 60%;
-  border: 1px dashed black;
   min-height: 300px;
   display: flex;
   align-items: flex-start;
@@ -174,13 +172,11 @@ footer{
 
 .col-small{
   width: 40%;
-  border: 1px dashed black;
   min-height: 300px;
 }
 
 .col-small-reverse{
   width: 40%;
-  border: 1px dashed black;
   min-height: 300px;
   display: flex;
   flex-direction: row-reverse;
@@ -188,7 +184,6 @@ footer{
 }
 
 .box-large{
-  border: 1px dashed black;
   min-height: 500px;
   display: flex;
   flex-direction: column;
@@ -196,40 +191,34 @@ footer{
 }
 
 footer .col{
-  border: 1px dashed white;
   flex-grow: 1;
-  background-color: #15a4ac;
+  background-color: #23272a;
   min-height: 300px;
 }
 
 footer .col-large{
   width: 15%;
-  background-color: #fa8b7e;
-  border-color: black;
+  background-color: #23272a;
+  border-color: white;
 }
 
 footer hr{
   margin-top: 1.4rem;
   margin-bottom: 1rem;
+  color: #7289da;
 }
 
 .lower-footer{
-  background-color: #75f0d4;
+  background-color: #23272a;
   padding: 1rem 0;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
-.footer-logo{
-  border: 1px dashed black;
-  padding: 0.5rem;
-  background-color: #ffbdc0;
-}
-
-.footer-button{
-  border: 1px dashed black;
-  padding: 0.5rem;
-  background-color: #ffbdc0;
+.footer-logo img{
+  width: 100px;
+  height: fit-content;
 }
 
 /* Buttons */
@@ -291,7 +280,6 @@ footer hr{
 .box-cta{
   padding-top: 30px;
   width: 50%;
-  border: 1px dashed black;
   min-height: 100px;
   display: flex;
   flex-direction: column;
@@ -314,4 +302,44 @@ footer hr{
   background-position: center top;
   text-align: center;
   background-size: auto 35px;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.ita{
+  width: 20px;
+}
+
+.col ul{
+  list-style: none;
+}
+
+.col ul a{
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding-top: 10px;
+}
+
+.col h4{
+  color: rgb(114, 137, 218);
+}
+.col-large h3{
+  color: rgb(114, 137, 218);
+  padding-bottom: 12px;
+}
+.col-large span{
+  color: white;
+  font-size: 0.8rem;
+  padding-bottom: 12px;
 }
