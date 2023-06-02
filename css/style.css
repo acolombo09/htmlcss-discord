@@ -53,6 +53,19 @@ footer{
   background-size: cover;
 }
 
+.container-welcome{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons{
+  padding-top: 10px;
+  text-align: center;
+}
+
 .bg-grey{
   background-color: #d3d3d3;
 }
@@ -94,9 +107,7 @@ footer{
 
 .welcome-section .container{
   max-width: 680px;
-  border: 1px dashed black;
   min-height: 300px;
-  background-color: rgb(238, 130, 238);
 }
 
 .row{
@@ -187,4 +198,23 @@ footer hr{
   background-color: #7289da;
   color: white;
   padding: .7rem 1rem;
+}
+
+.title{
+  font-size: 1.3rem;
+  padding-bottom: 12px;
+}
+.description{
+  font-size: 0.85rem;
+  padding-top: 10px;
+}
+.welcome-title{
+  color: white;
+  text-align: center;
+}
+
+.welcome-description{
+  color: white;
+  text-align: center;
+  width: 85%;
 }
