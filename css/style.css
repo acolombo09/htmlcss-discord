@@ -126,11 +126,11 @@ footer{
   min-height: 300px;
 }
 
-.row{
+.row, .row-reverse{
   display: flex;
 }
 
-.col-blue{
+.col-wide{
   width: 60%;
   border: 1px dashed black;
   min-height: 300px;
@@ -139,14 +139,36 @@ footer{
   align-items: flex-start;
 }
 
-.col-blue img{
+.col-wide-reverse{
+  width: 60%;
+  border: 1px dashed black;
+  min-height: 300px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.col-wide img{
   width: 400px;
 }
 
-.col-pink{
+.col-wide-reverse img{
+  width: 400px;
+}
+
+.col-small{
   width: 40%;
   border: 1px dashed black;
   min-height: 300px;
+}
+
+.col-small-reverse{
+  width: 40%;
+  border: 1px dashed black;
+  min-height: 300px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
 }
 
 .box-green{
