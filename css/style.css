@@ -71,16 +71,31 @@ footer{
 }
 
 .nav-links, .nav-logo, .nav-login{
-  border: 1px dashed black;
   padding: .5rem;
 }
 
-.nav-logo, .nav-login{
+.nav-logo img{
+  width: 100px;
+  height: fit-content;
+}
+
+.nav-logo{
   min-width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.nav-login{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .nav-links{
   flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .nav-links ul{
@@ -91,9 +106,10 @@ footer{
 
 .nav-links ul a{
   display: inline-block;
-  padding: 0 .3rem;
+  padding: 0 1.1rem;
   text-decoration: none;
-  color: black;
+  color: white;
+  font-size: 0.9rem;
 }
 
 .nav-login{
